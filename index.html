@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange Calculator</title>
+    <link rel="stylesheet" href="/css/stye.css">
+    
+</head>
+<body>
+    <div class="calculator">
+        <h3>💵 Dollar to Riel Exchange</h3>
+        <form>
+            <label for="amount_dollar">Amount in Dollars (USD):</label>
+            <input type="number" id="amount_dollar" placeholder="Enter USD" oninput="exchange()">
+
+            <label for="rate">Exchange Rate (1 USD = ? Riel):</label>
+            <input type="number" id="rate" value="4100" oninput="exchange()">
+
+            <label for="result">Result in Riel (KHR):</label>
+            <input type="text" id="result" value="0" readonly>
+        </form>
+    </div>
+    <script src="/css/stye.css"></script>
+
+
+</body>
+</html>
